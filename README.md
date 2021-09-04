@@ -1,10 +1,10 @@
 
 # DistilLingEval
 
-Data and code for the paper ["On the Limits of Minimal Pairs in Contrastive Evaluation"](#) (BlackboxNLP 2021), containing contrastive translation pairs for targeted evaluation of English→German MT systems.
+Data and code for the paper "On the Limits of Minimal Pairs in Contrastive Evaluation" (BlackboxNLP 2021), containing contrastive translation pairs for targeted evaluation of **English→German** MT systems.
 
 The evaluation protocol is identical to LingEval97 (https://github.com/rsennrich/lingeval97).
-The difference is that the target sequences of LingEval97 are human-written references, whereas DistilLingEval also provides **contrastive test sets built from machine translations**. See the [paper](#) for more details.
+The difference is that the target sequences of LingEval97 are human-written references, whereas DistilLingEval also provides **contrastive test sets built from machine translations**.
 
 ## Contrastive Test Sets
 
@@ -181,7 +181,7 @@ python contrastive_evaluation.py \
 - Code: MIT License
 - Data: Please refer to [OPUS](https://opus.nlpl.eu/) for the licenses of the `hypercorrect_genitive` data, and to the [WMT19 shared task website](https://opus.nlpl.eu/) for the license of the other data.
 
-# Citation
+## Citation
 ```bibtex
 @inproceedings{vamvas-etal-2021-limits,
     title = "On the Limits of Minimal Pairs in Contrastive Evaluation",
