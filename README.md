@@ -4,7 +4,7 @@
 Data and code for the paper ["On the Limits of Minimal Pairs in Contrastive Evaluation"](https://arxiv.org/abs/2109.07465) (BlackboxNLP 2021), containing contrastive translation pairs for targeted evaluation of **English→German** MT systems.
 
 The evaluation protocol is identical to LingEval97 (https://github.com/rsennrich/lingeval97).
-The difference is that the target sequences of LingEval97 are human-written references, whereas DistilLingEval also provides **contrastive test sets built from machine translations**.
+The difference is that the target sequences of LingEval97 are human-written references, whereas DistilLingEval also provides **contrastive test sets built from machine translations**. A high-level explanation can be found in [**Jannis' blog**](https://vamvas.ch/the-limits-of-minimal-sentence-pairs), and a more detailed description in the [**paper**](https://arxiv.org/abs/2109.07465).
 
 ## Contrastive Test Sets
 
