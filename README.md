@@ -1,10 +1,10 @@
 
 # DistilLingEval
 
-Data and code for the paper ["On the Limits of Minimal Pairs in Contrastive Evaluation"](https://arxiv.org/abs/2109.07465) (BlackboxNLP 2021), containing contrastive translation pairs for targeted evaluation of **English→German** MT systems.
+Data and code for the paper ["On the Limits of Minimal Pairs in Contrastive Evaluation"](https://aclanthology.org/2021.blackboxnlp-1.5/) (BlackboxNLP 2021), containing contrastive translation pairs for targeted evaluation of **English→German** MT systems.
 
 The evaluation protocol is identical to LingEval97 (https://github.com/rsennrich/lingeval97).
-The difference is that the target sequences of LingEval97 are human-written references, whereas DistilLingEval also provides **contrastive test sets built from machine translations**. A high-level explanation can be found in [**Jannis' blog**](https://vamvas.ch/the-limits-of-minimal-sentence-pairs), and a more detailed description in the [**paper**](https://arxiv.org/abs/2109.07465).
+The difference is that the target sequences of LingEval97 are human-written references, whereas DistilLingEval also provides **contrastive test sets built from machine translations**. A high-level explanation can be found in [**Jannis' blog**](https://vamvas.ch/the-limits-of-minimal-sentence-pairs), and a more detailed description in the [**paper**](https://aclanthology.org/2021.blackboxnlp-1.5/).
 
 ## Contrastive Test Sets
 
@@ -183,13 +183,16 @@ python contrastive_evaluation.py \
 
 ## Citation
 ```bibtex
-@inproceedings{vamvas-etal-2021-limits,
+@inproceedings{vamvas-sennrich-2021-limits,
     title = "On the Limits of Minimal Pairs in Contrastive Evaluation",
-    author = "Vamvas, Jannis and
+    author = "Vamvas, Jannis  and
       Sennrich, Rico",
     booktitle = "Proceedings of the Fourth BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP",
     month = nov,
     year = "2021",
-    publisher = "Association for Computational Linguistics"
+    address = "Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.blackboxnlp-1.5",
+    pages = "58--68",
 }
 ```
