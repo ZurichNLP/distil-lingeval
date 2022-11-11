@@ -119,7 +119,7 @@ class FairseqScoringModel(ScoringModel, FairseqTranslationModel):
             )
             results.append(result[0][0])
         # Fairseq outputs binary logarithm
-        scores = [2 ** result["score"].item() for result in results]
+        scores = [result["score"].item() for result in results]
         return scores
 
 
